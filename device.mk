@@ -189,6 +189,10 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.TP1803
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
