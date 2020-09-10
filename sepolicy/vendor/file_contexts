@@ -8,6 +8,9 @@
 # Fingerprint
 /dev/sunwave_fp                                                      u:object_r:vendor_fingerprint_device:s0
 
+# HALs
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.TP1803         u:object_r:hal_light_default_exec:s0
+
 # Sensors
 /sys/devices/virtual/light/light(/.*)?                               u:object_r:vendor_sysfs_sensors:s0
 /sys/devices/virtual/proximity/proximity(/.*)?                       u:object_r:vendor_sysfs_sensors:s0

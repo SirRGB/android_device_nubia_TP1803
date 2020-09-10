@@ -168,6 +168,10 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.TP1803
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
