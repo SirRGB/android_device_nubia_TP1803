@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_TP1803.mk
+    $(LOCAL_DIR)kasumi_TP1803.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_TP1803-user \
-    lineage_TP1803-userdebug \
-    lineage_TP1803-eng
+    kasumi_TP1803-user \
+    kasumi_TP1803-userdebug \
+    kasumi_TP1803-eng
