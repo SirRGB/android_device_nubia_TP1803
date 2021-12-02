@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)kasumi_TP1803.mk
+    $(LOCAL_DIR)/kasumi_TP1803.mk
 
 COMMON_LUNCH_CHOICES := \
     kasumi_TP1803-user \
