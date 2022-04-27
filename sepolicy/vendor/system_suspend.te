@@ -1,0 +1,2 @@
+allow system_suspend sysfs:file { read allow getattr open };
+allow system_suspend sysfs:dir { read open getattr };
