@@ -13,8 +13,8 @@
 -->
 <resources>
     <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">false</bool>
-    <integer name="config_smartChargingBatteryLevel">80</integer>
+    <bool name="config_smartChargingAvailable">true</bool>
+    <integer name="config_smartChargingBatteryLevel">85</integer>
     <integer name="config_smartChargingBatteryResumeLevel">60</integer>
     <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_smartChargingSuspendValue" translatable="false">0</string>
