@@ -10,8 +10,9 @@ persist.vendor.cne.feature=1
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
-renderthread.skia.reduceopstasksplitting=true 
+debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_transaction_tracing=false
+renderthread.skia.reduceopstasksplitting=true 
 
 # Radio
 ril.subscription.types=NV,RUIM
