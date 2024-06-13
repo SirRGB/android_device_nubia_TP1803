@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
     liba2dpoffload \
     libhdmiedid \
     libhfp \
+    libprocessgroup.vendor \
     libsndmonitor \
     libspkrprot \
     libqcompostprocbundle \
@@ -93,6 +94,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libcomparetf2 \
+    libpng.vendor \
     libprotobuf-cpp-full-vendorcompat
 
 PRODUCT_COPY_FILES += \
@@ -255,7 +257,9 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libcurl.vendor:64 \
+    libjson \
+    libjsoncpp.vendor
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -277,7 +281,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor \
     CarrierConfigOverlay \
-    librmnetctl
+    librmnetctl \
+    libsqlite.vendor:64
 
 # Rootdir
 PRODUCT_PACKAGES += \
